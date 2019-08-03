@@ -12,60 +12,59 @@
     <div id="viewport">
       <div id="top-nav-bar">
         <div class="left-nav">
-            <ul>
-                <li class="nav-items"><a href="#">About</a></li>
-                <li class="nav-items"><a href="#">Store</a></li>
-              </ul>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+          </ul>
         </div>
         <div class="right-nav">
           <ul>
-              <li class="nav-items"><a href="#">Gmail</a></li>
-              <li class="nav-items"><a href="#"">Images</a></li>
-              <li class="nav-items"><a href="#"><img src="" alt="Google Apps"></a></li>
-              <li class="nav-items"><a href="#"><img src="img/google-bitmoji.png" alt="Google Account: User Name"></a></li>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#"">Images</a></li>
+            <li class="grid-img"><a href="#"><img src="img/grid.png" width="16" height="16" alt="Apps"></a></li>
+            <li class="bitmoji"><a href="#"><img src="img/user.png" alt='Login' title="Google Account: User Name"></a></li>
           </ul>
         </div>
-        <div id="main-content">
-          <div class="logo-section">
-            <div class="logo">
-              <img src="img/google-logo.png" width="272" height="89" alt="Google Logo">
-            </div>
-          </div>
-          <div class="search-form">
-            <form action="/search" method="GET">
-              <div class="input">
-                  <input type="text"><span>Mic</span>
-              </div>
-            </form>
-          </div>
-          <div class="buttons">
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
-          </div>
-        </div>
-        <footer>
-          <div class="row1">
-            <span>Australia</span>
-          </div>
-          <div class="row2">
-            <div class="left-nav">
-                <span>
-                    <a href="#">Advertising</a>
-                    <a href="#">Business</a>
-                    <a href="#">How Search Works</a>
-                  </span>
-            </div>
-            <div class="right-nav">
-                <span>
-                    <a href="#">Privacy</a>
-                    <a href="#">Terms</a>
-                    <a href="#">Settings</a>
-                  </span>
-            </div>
-            
-          </div>
-        </footer>
       </div>
+      <div id="main-content">
+        <div class="logo">
+          <img src="img/google-logo.png" width="272" height="92" alt="Google Logo" id="google-logo">
+        </div>
+        <div class="search-form">
+          <form action="/search" method="GET">
+            <div class="search-bar">
+                <input type="text" >
+                <a class="mic"><img src="img/google-mic.png" width="24" height="24" alt="Search By Voice Icon" title="Search By Voice" id="mic"></a>
+            </div>
+          </form>
+        </div>
+        <div class="buttons">
+          <input type="submit" value="Google Search">
+          <input type="submit" value="I'm Feeling Lucky">
+        </div>
+      </div>
+  
+      <footer>
+        <div class="row1">
+          <span>Australia</span>
+        </div>
+        <div class="row2">
+          <div class="left-nav">  
+            <ul>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">How Search orks</a></li>
+            </ul>        
+          </div>
+          <div class="right-nav">  
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li class="last-item"><a href="#">Settings</a></li>
+            </ul>      
+         </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
